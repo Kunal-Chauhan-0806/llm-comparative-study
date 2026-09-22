@@ -33,9 +33,9 @@ All comparisons were made using the same or similar prompts across models.
 
 | Model | Quality | Notes |
 |-------|---------|-------|
-| ChatGPT (GPT-4) | `●●●○○` 3/5 | Explanations are basic. Often requires 2–3 follow-up correction prompts to reach the desired depth. High iteration cost per session. |
-| Gemini | `●●●○○` 3/5 | Performs reasonably but responses tend to be too short. Lacks depth for complex academic topics without explicit prompting. |
-| Claude | `●●●●●` 5/5 | Best results on first or second prompt. Responses are well-structured, appropriately detailed, and easier to read as study material. |
+| ChatGPT (GPT-4) | `●●●○○` 2/5 | Explanations are basic. Often requires 2–3 follow-up correction prompts to reach the desired depth. High iteration cost per session. |
+| Gemini | `●●○○○` 2/5 | Performs reasonably but responses tend to be too short. Lacks depth for complex academic topics without explicit prompting. |
+| Claude | `●●●○○` 3/5 | Best results on first or second prompt. Responses are well-structured, appropriately detailed, and easier to read as study material. |
 
 **Key insight:** Claude required the least prompt iteration to produce usable study notes. GPT-4 required the most re-prompting, increasing time cost significantly.
 
@@ -49,8 +49,8 @@ All comparisons were made using the same or similar prompts across models.
 | Model | Quality | Notes |
 |-------|---------|-------|
 | ChatGPT (GPT-4) | `●●●○○` 3/5 | Generates a plan but it is generic. Does not adapt well to specific date constraints without additional prompting. |
-| Gemini | `●●●○○` 3/5 | Similar to GPT — functional but not personalised. |
-| Claude | `●●●●●` 5/5 | Produces structured, realistic plans that account for the actual days available. Output is directly usable. |
+| Gemini | `●●○○○` 2/5 | Similar to GPT — functional but not personalised. |
+| Claude | `●●●●○` 4/5 | Produces structured, realistic plans that account for the actual days available. Output is directly usable. |
 
 ---
 
@@ -80,7 +80,7 @@ This was one of the most significant differentiators across models.
 |-------|---------|-------|
 | ChatGPT (GPT-4) | `●●○○○` 2/5 | Document and PPT output is poor — basic formatting, minimal structure, not submission-ready. |
 | Gemini | `●●○○○` 2/5 | Similar issues — documents lack proper formatting. Not reliable for academic submission. |
-| Claude | `●●●●●` 5/5 | Produces well-structured, formatted documents and presentations. Output is closest to submission-ready with minimal editing. |
+| Claude | `●●●○○` 3/5 | Produces well-structured, formatted documents and presentations. Output is closest to submission-ready with minimal editing. |
 
 ---
 
@@ -93,7 +93,7 @@ This was one of the most significant differentiators across models.
 |-------|---------|-------|
 | ChatGPT (GPT-4) | `●●●○○` 3/5 | Summaries are functional but sometimes factually imprecise. Requires verification. |
 | Gemini | `●●●○○` 3/5 | Summaries tend to be too short even when length is specified. |
-| Claude | `●●●●●` 5/5 | Best summary quality. Handles the two-part structure (overview + detail) well without additional prompting. |
+| Claude | `●●●●○` 4/5 | Best summary quality. Handles the two-part structure (overview + detail) well without additional prompting. |
 
 ---
 
